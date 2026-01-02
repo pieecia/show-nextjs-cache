@@ -1,22 +1,33 @@
 {
   "name": "show-next-cache",
   "version": "0.1.0",
-  "description": "CLI tool to inspect Next.js App Router cache",
+  "description": "CLI tool to inspect and manage Next.js App Router cache",
   "bin": {
-    "showNextCache": "./bin/cli.js"
+    "show-next-cache": "./bin/cli.js"
   },
   "type": "module",
   "scripts": {
     "dev": "node bin/cli.js"
   },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
   "keywords": [
     "nextjs",
     "cache",
     "cli",
-    "dev-tools"
+    "dev-tools",
+    "next.js",
+    "fetch-cache",
+    "revalidate"
   ],
-  "author": "",
+  "author": "Piotr Kananowicz <piotr.kananowicz@icloud.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "chalk": "^5.6.2",
     "cli-table3": "^0.6.5",
