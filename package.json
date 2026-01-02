@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "CLI tool to inspect and manage Next.js App Router cache",
   "bin": {
-    "show-next-cache": "./bin/cli.js"
+    "show-next-cache": "bin/cli.js"
   },
   "type": "module",
   "scripts": {
