@@ -74,7 +74,7 @@ show-next-cache
 Interactively select tags to clear from cache.
 
 ```bash
-showNextCache --revalidate-tag
+show-next-cache --revalidate-tag
 ```
 
 **Features:**
@@ -88,7 +88,7 @@ showNextCache --revalidate-tag
 Interactively select URLs to clear from cache.
 
 ```bash
-showNextCache --revalidate-url
+show-next-cache --revalidate-url
 ```
 
 **Features:**
@@ -100,7 +100,7 @@ showNextCache --revalidate-url
 ### Help
 
 ```bash
-showNextCache --help
+show-next-cache --help
 ```
 
 ## Cache Types
