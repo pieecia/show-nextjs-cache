@@ -12,7 +12,7 @@ CLI tool to inspect and manage Next.js App Router cache.
 
 ## Installation & Usage
 
-### For Users (Recommended)
+### For Developers (Recommended)
 
 No installation needed! Use `npx` to run directly in your Next.js project:
 
@@ -43,7 +43,7 @@ npm link
 
 # Use in any Next.js project
 cd /path/to/your-nextjs-project
-showNextCache
+show-next-cache
 ```
 
 ## Commands
@@ -53,7 +53,7 @@ showNextCache
 Display all fetch cache entries in a formatted table.
 
 ```bash
-showNextCache
+show-next-cache
 ```
 
 **Output includes:**
